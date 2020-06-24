@@ -1,0 +1,500 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background:#FAFAFA;
+  background-size: 190px 90px;
+  background-position: 800px  80px;
+}
+
+.sideMenu{
+  background:#3F5161;
+  width:280px;
+  float: left;
+  padding-top: 30px;
+  margin-left:-20px;
+  height: 1000px;
+  position:relative;
+}
+
+
+
+.sideMenu .NaW{
+  padding-top: 15px;
+  color: #ffffff;
+}
+.sideMenu .NaW a{
+  display:block;
+  color: #ffffff;
+  text-decoration: none;
+  padding:10px 30px;
+  font-weight:200;
+  
+}
+.sideMenu .NaW .fa-home{
+  color:#494C4C;
+  font-size:1.4rem;
+  margin-right:0.8rem;
+  display:inline-block;
+  width:30px;
+
+}
+
+.sideMenu .NaW .fa-calendar-alt{
+  color:#494C4C;
+  font-size:1.4rem;
+  margin-right:0.8rem;
+  display:inline-block;
+  width:30px;
+}
+
+.sideMenu .NaW .fa-user{
+  color:#494C4C;
+  font-size:1.4rem;
+  margin-right:0.8rem;
+  display:inline-block;
+  width:30px;
+}
+.sideMenu .NaW .fa-cogs{
+  color:#494C4C;
+  font-size:1.4rem;
+  margin-right:0.8rem;
+  display:inline-block;
+  width:30px;
+}
+.sideMenu .active{
+  color:#000000;
+  background:#496B8A;
+  border-left: 0px solid black;
+  padding:15px 30px 15px 25px;
+}
+.sideMenu .NaW .Usefullinks{
+display:block;
+margin-top:12.8vh;
+border-top:solid 2px dodgerblue;
+
+ 	
+	
+}
+.sideMenu .NaW .LegalInfo{
+display:block;
+
+	
+    
+	
+	
+}
+header{
+ 
+  background:#354a5f;
+  width: 1600px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+.buton{
+  position: fixed;
+    top: 12px;
+    left: 10px;
+	width:25px;
+	height:25px;
+}
+.headertitle{
+   color:#ffffff;
+   position: fixed;
+   top: 15px;
+   left: 45px;
+
+}
+.üstayar{
+   position: fixed;
+   top: 15px;
+   left: 1450px;
+   color:white;
+   text-decoration: none;
+}
+.küçükresim1{
+	
+	width:15px;
+	height:15px;
+    
+	position: fixed;
+    top: 15px;
+    left: 1420px;
+	
+}
+.küçükresim2{
+	width:15px;
+	height:15px;
+    
+	position: fixed;
+    top: 15px;
+    left: 1390px;
+	
+}
+
+card{
+	
+	background:#ffffff;
+	position: fixed;
+    top: 150px;
+    left: 300px;
+	
+}
+.üstcard{
+	background:#ffffff;
+	position: fixed;
+    top: 50px;
+    left: 270px;
+	width:1328px;
+	height:190px;
+	
+}
+.üstcardbaşlık{
+	position: fixed;
+    top: 90px;
+    left: 350px;
+	width:1500px;
+	height:250px;
+	
+}
+
+.üstcardufak{
+	position: fixed;
+    top: 120px;
+    left: 350px;
+	
+}
+.yapboz{
+	position: fixed;
+    top: 110px;
+    left: 300px;
+	width:40px;
+	height:40px;
+	
+	
+}
+.search{
+	position: fixed;
+    top: 200px;
+    left: 1350px;
+	width:150px;
+	height:20px;
+	
+}
+.help{
+	position: fixed;
+    top: 150px;
+    left: 1450px;
+	width:40px;
+	height:40px;
+}	
+.anasayfasimgesi{
+	position: fixed;
+    top: 60px;
+    left: 275px;
+	width:20px;
+	height:20px;
+	
+	
+	
+}	
+.cardüst1{
+	position: fixed;
+    top: 60px;
+    left: 300px;
+	width:300px;
+	height:100px;
+	color:#67a9d0;
+	text-decoration: none;
+}	
+.cardüst2{
+	position: fixed;
+    top: 60px;
+    left: 500px;
+	width:150px;
+	height:150px;
+	color:#67a9d0;
+	text-decoration: none;
+}	
+
+.cardüst3{
+	position: fixed;
+    top: 60px;
+    left: 650px;
+	width:150px;
+	height:150px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.cardüst4{
+	position: fixed;
+    top: 60px;
+    left: 820px;
+	width:150px;
+	height:150px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+
+.cardüst5{
+	position: fixed;
+    top: 60px;
+    left: 900px;
+	width:150px;
+	height:150px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.card1{
+	background:#ffffff;
+	position: fixed;
+    top: 260px;
+    left: 280px;
+	width:300px;
+	height:200px;
+	
+	
+}
+
+.card1top{
+	position: fixed;
+    top: 280px;
+    left: 300px;
+	width:300px;
+	height:200px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.card1txt{
+	position: fixed;
+    top: 300px;
+    left: 335px;
+	width:250px;
+	height:200px;
+	
+}
+
+.card1png{
+	position: fixed;
+    top: 320px;
+    left: 283px;
+	width:50px;
+	height:50px;
+	
+	
+}
+
+.card2{
+	background:#ffffff;
+	position: fixed;
+    top: 260px;
+    left:650px;
+	width:300px;
+	height:200px;
+	
+	
+}
+.card2top{
+	position: fixed;
+    top: 280px;
+    left: 670px;
+	width:300px;
+	height:200px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.card2txt{
+	position: fixed;
+    top: 300px;
+    left: 700px;
+	width:250px;
+	height:200px;
+	
+}
+.card2png{
+	position: fixed;
+    top: 320px;
+    left: 650px;
+	width:50px;
+	height:50px;
+	
+	
+}
+.card3{
+	background:#ffffff;
+	position: fixed;
+    top: 260px;
+    left:1000px;
+	width:300px;
+	height:200px;
+	
+	
+}
+.card3top{
+	position: fixed;
+    top: 280px;
+    left: 1015px;
+	width:300px;
+	height:200px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.card3txt{
+	position: fixed;
+    top: 300px;
+    left: 1050px;
+	width:250px;
+	height:200px;
+	
+}
+.card3png{
+	position: fixed;
+    top: 310px;
+    left: 1000px;
+	width:50px;
+	height:50px;
+	
+	
+}
+
+.card4{
+	background:#ffffff;
+	position: fixed;
+    top: 490px;
+    left:280px;
+	width:300px;
+	height:200px;
+	
+	
+}
+.card4top{
+	position: fixed;
+    top: 510px;
+    left: 300px;
+	width:300px;
+	height:200px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.card4txt{
+	position: fixed;
+    top: 540px;
+    left: 330px;
+	width:250px;
+	height:200px;
+	
+}
+.card4png{
+	position: fixed;
+    top: 550px;
+    left: 280px;
+	width:50px;
+	height:50px;
+	
+	
+}
+
+.card5{
+	background:#ffffff;
+	position: fixed;
+    top: 490px;
+    left:650px;
+	width:300px;
+	height:200px;
+	
+	
+}
+.card5top{
+	position: fixed;
+    top: 510px;
+    left: 670px;
+	width:300px;
+	height:200px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.card5txt{
+	position: fixed;
+    top: 540px;
+    left: 700px;
+	width:250px;
+	height:200px;
+	
+}
+.card5png{
+	position: fixed;
+    top: 550px;
+    left: 650px;
+	width:50px;
+	height:50px;
+	
+	
+}
+
+.card6{
+	background:#ffffff;
+	position: fixed;
+    top: 490px;
+    left:1000px;
+	width:300px;
+	height:200px;
+	
+	
+}
+.card6top{
+	position: fixed;
+    top: 510px;
+    left: 1015px;
+	width:300px;
+	height:200px;
+	color:#67a9d0;
+	text-decoration: none;
+	
+	
+}
+
+.card6txt{
+	position: fixed;
+    top: 540px;
+    left: 1050px;
+	width:250px;
+	height:200px;
+	
+}
+.card6png{
+	position: fixed;
+    top: 550px;
+    left: 1000px;
+	width:50px;
+	height:50px;
+	
+	
+}
